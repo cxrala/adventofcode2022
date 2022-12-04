@@ -15,7 +15,6 @@ namespace stringutils {
             return false;
         }
     }
-    // WHAT THE FUCK IS GOING ON
     std::vector<std::string> split(const std::string &str, const std::vector<char> &delimiters) {
         std::vector<std::string> res{};
         std::string buffer;
