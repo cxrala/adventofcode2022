@@ -6,6 +6,7 @@
 #include "../utils/string/stringutils.h"
 #include <iostream>
 #include <vector>
+#include <iterator>
 
 namespace aoc::day4 {
     namespace {
@@ -14,6 +15,7 @@ namespace aoc::day4 {
             std::vector<char> delimiters{'-', ','};
             std::vector<std::string> delimited = stringutils::split(assignments, delimiters);
             std::vector<int> sections;
+            sections.reserve(delimited.size());
             std::transform(delimited.begin(), delimited.end(), std::back_inserter(sections), [](const std::string &str) { return std::stoi(str); });
             return sections;
         }

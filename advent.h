@@ -5,6 +5,8 @@
 #ifndef ADVENTOFCODE_ADVENT_H
 #define ADVENTOFCODE_ADVENT_H
 
+#include <string>
+
 namespace aoc {
     namespace day1 {
         unsigned int solution1();
@@ -24,6 +26,11 @@ namespace aoc {
     namespace day4 {
         unsigned int solution1();
         unsigned int solution2();
+    }
+
+    namespace day5 {
+        std::string solution1();
+        std::string solution2();
     }
 }
 
