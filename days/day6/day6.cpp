@@ -43,6 +43,12 @@ namespace aoc::day6 {
     unsigned int solution1() {
         std::string buffer;
         std::getline(std::cin, buffer);
+        return first_occurrence<4>(buffer);
+    }
+
+    unsigned int solution2() {
+        std::string buffer;
+        std::getline(std::cin, buffer);
         return first_occurrence<14>(buffer);
     }
 }

@@ -1,12 +1,15 @@
 # ninja log v5
-2	603	1670304171626635879	CMakeFiles/adventofcode.dir/main.cpp.o	d0ff9e2d5e63a766
-787	852	1670306046561366166	adventofcode	a82ddfadfc0bf710
-1	107	1670306113056922669	build.ninja	aecd6ebf531aac79
-7	1150	1670304155419115243	CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o	b9914490d21a6b24
-6	916	1670304155184254412	CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o	47eb96a5b0f9a5f1
-5	984	1670304155253827648	CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o	f6993f2b4b22f7ae
-2	787	1670306046493840581	CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o	3efdfe50be041b30
-6	1049	1670304155317937609	CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o	8ad1a440c89ea1b3
-11	1388	1670250893172729886	CMakeFiles/adventofcode.dir/days/utils/string/delimiter.cpp.o	b4a2797ffb1ef6d5
-3	878	1670103755728495137	CMakeFiles/adventofcode.dir/debug.cpp.o	2865516024213384
 7	969	1670304155238656206	CMakeFiles/adventofcode.dir/days/day4/day4.cpp.o	6c2ad600587590d0
+3	878	1670103755728495137	CMakeFiles/adventofcode.dir/debug.cpp.o	2865516024213384
+11	1388	1670250893172729886	CMakeFiles/adventofcode.dir/days/utils/string/delimiter.cpp.o	b4a2797ffb1ef6d5
+6	1049	1670304155317937609	CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o	8ad1a440c89ea1b3
+2	787	1670306046493840581	CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o	3efdfe50be041b30
+5	984	1670304155253827648	CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o	f6993f2b4b22f7ae
+6	916	1670304155184254412	CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o	47eb96a5b0f9a5f1
+7	1150	1670304155419115243	CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o	b9914490d21a6b24
+1	107	1670306178775611228	build.ninja	aecd6ebf531aac79
+787	852	1670306046561366166	adventofcode	a82ddfadfc0bf710
+2	603	1670304171626635879	CMakeFiles/adventofcode.dir/main.cpp.o	d0ff9e2d5e63a766
+1	98	1670306178775611228	build.ninja	aecd6ebf531aac79
+5	841	1670306179625126859	CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o	3efdfe50be041b30
+841	919	1670306179705786758	adventofcode	a82ddfadfc0bf710
