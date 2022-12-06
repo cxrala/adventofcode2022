@@ -120,6 +120,12 @@ build CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o: CXX_COMPILER__adventofco
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day5
 
+build CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day6/day6.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o.d
+  FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/adventofcode.dir
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day6
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target adventofcode
@@ -128,7 +134,7 @@ build CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o: CXX_COMPILER__adventofco
 #############################################
 # Link the executable adventofcode
 
-build adventofcode: CXX_EXECUTABLE_LINKER__adventofcode_Debug CMakeFiles/adventofcode.dir/main.cpp.o CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o CMakeFiles/adventofcode.dir/debug.cpp.o CMakeFiles/adventofcode.dir/days/day4/day4.cpp.o CMakeFiles/adventofcode.dir/days/utils/string/delimiter.cpp.o CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o
+build adventofcode: CXX_EXECUTABLE_LINKER__adventofcode_Debug CMakeFiles/adventofcode.dir/main.cpp.o CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o CMakeFiles/adventofcode.dir/debug.cpp.o CMakeFiles/adventofcode.dir/days/day4/day4.cpp.o CMakeFiles/adventofcode.dir/days/utils/string/delimiter.cpp.o CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   POST_BUILD = :

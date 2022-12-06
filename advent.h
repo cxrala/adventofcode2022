@@ -32,6 +32,11 @@ namespace aoc {
         std::string solution1();
         std::string solution2();
     }
+
+    namespace day6 {
+        unsigned int solution1();
+        unsigned int solution2();
+    }
 }
 
 #endif //ADVENTOFCODE_ADVENT_H
