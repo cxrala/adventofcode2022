@@ -6,11 +6,13 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
+#include "../utils/map/maputils.h"
 
 namespace aoc::day6 {
     namespace {
-        // todo: make templated
-        void incr_or_initialise(char in, std::unordered_map<char, int> &map) {
+        // todo: extract into utils
+        template <typename T>
+        void incr_or_initialise(T in, std::unordered_map<T, int> &map) {
             if (map.contains(in)) {
                 ++map[in];
             } else {
@@ -18,9 +20,9 @@ namespace aoc::day6 {
             }
         }
 
-        void decr_or_erase(char out, std::unordered_map<char, int> &map) {
-            --map[out];
-            if (map[out] == 0) {
+        template <typename T>
+        void decr_or_erase(T out, std::unordered_map<T, int> &map) {
+            if (--map[out] == 0) {
                 map.erase(out);
             }
         }
@@ -30,25 +32,28 @@ namespace aoc::day6 {
             std::unordered_map<char, int> window;
 
             for (int i = 0; i < buffer.size(); ++i) {
-                if (i < T - 1) incr_or_initialise(buffer[i], window);
+                if (i < T - 1) incr_or_initialise<char>(buffer[i], window);
                 else {
-                    incr_or_initialise(buffer[i], window);
+                    incr_or_initialise<char>(buffer[i], window);
                     if (window.size() == T) return i + 1;
-                    decr_or_erase(buffer[i - (T - 1)], window);
+                    decr_or_erase<char>(buffer[i - (T - 1)], window);
                 }
             }
+        }
+
+        template <int T>
+        unsigned int solve() {
+            std::string buffer;
+            std::getline(std::cin, buffer);
+            return first_occurrence<T>(buffer);
         }
     }
 
     unsigned int solution1() {
-        std::string buffer;
-        std::getline(std::cin, buffer);
-        return first_occurrence<4>(buffer);
+        return solve<4>();
     }
 
     unsigned int solution2() {
-        std::string buffer;
-        std::getline(std::cin, buffer);
-        return first_occurrence<14>(buffer);
+        return solve<14>();
     }
 }
