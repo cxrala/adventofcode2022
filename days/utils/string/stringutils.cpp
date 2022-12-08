@@ -1,6 +1,7 @@
 //
-// Created by Amelia Ng on 04/12/2022.
+// Created by Amelia Ng on 07/12/2022.
 //
+
 
 #include "stringutils.h"
 #include <string>
@@ -33,4 +34,11 @@ namespace stringutils {
         }
         return res;
     }
+
+    bool is_numeric(std::string const &str) {
+        std::string::const_iterator it = str.begin();
+        while (it != str.end() && std::isdigit(*it)) ++it;
+        return !str.empty() && it == str.end();
+    }
+
 }
