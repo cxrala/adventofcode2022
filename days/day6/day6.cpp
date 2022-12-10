@@ -15,9 +15,11 @@ namespace aoc::day6 {
             std::unordered_map<char, int> window;
 
             for (int i = 0; i < buffer.size(); ++i) {
-                if (i < T - 1) maputils::incr_or_initialise<char>(buffer[i], window);
+                if (i < T - 1) {
+                    ++window[buffer[i]];
+                }
                 else {
-                    maputils::incr_or_initialise<char>(buffer[i], window);
+                    ++window[buffer[i]];
                     if (window.size() == T) return i + 1;
                     maputils:: decr_or_erase<char>(buffer[i - (T - 1)], window);
                 }

@@ -35,7 +35,7 @@ namespace stringutils {
         return res;
     }
 
-    bool is_numeric(std::string const &str) {
+    bool  is_numeric(std::string const &str) {
         std::string::const_iterator it = str.begin();
         while (it != str.end() && std::isdigit(*it)) ++it;
         return !str.empty() && it == str.end();
