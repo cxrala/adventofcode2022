@@ -78,23 +78,23 @@ build CMakeFiles/adventofcode.dir/main.cpp.o: CXX_COMPILER__adventofcode_Debug /
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir
 
-build CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day1/day1.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day01/day1.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day01/day1.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day01/day1.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day1
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day01
 
-build CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day2/day2.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day02/day2.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day02/day2.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day02/day2.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day2
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day02
 
-build CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day3/day3.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day03/day3.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day03/day3.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day03/day3.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day3
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day03
 
 build CMakeFiles/adventofcode.dir/debug.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/debug.cpp || cmake_object_order_depends_target_adventofcode
   DEP_FILE = CMakeFiles/adventofcode.dir/debug.cpp.o.d
@@ -102,29 +102,29 @@ build CMakeFiles/adventofcode.dir/debug.cpp.o: CXX_COMPILER__adventofcode_Debug 
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir
 
-build CMakeFiles/adventofcode.dir/days/day4/day4.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day4/day4.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day4/day4.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day04/day4.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day04/day4.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day04/day4.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day4
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day04
 
-build CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day5/day5.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day05/day5.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day05/day5.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day05/day5.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day5
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day05
 
-build CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day6/day6.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day06/day6.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day06/day6.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day06/day6.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day6
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day06
 
-build CMakeFiles/adventofcode.dir/days/day7/day7.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day7/day7.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day7/day7.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day07/day7.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day07/day7.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day07/day7.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day7
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day07
 
 build CMakeFiles/adventofcode.dir/days/utils/string/stringutils.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/utils/string/stringutils.cpp || cmake_object_order_depends_target_adventofcode
   DEP_FILE = CMakeFiles/adventofcode.dir/days/utils/string/stringutils.cpp.o.d
@@ -132,11 +132,11 @@ build CMakeFiles/adventofcode.dir/days/utils/string/stringutils.cpp.o: CXX_COMPI
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/utils/string
 
-build CMakeFiles/adventofcode.dir/days/day8/day8.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day8/day8.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day8/day8.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day08/day8.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day08/day8.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day08/day8.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day8
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day08
 
 build CMakeFiles/adventofcode.dir/days/day10/day10.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day10/day10.cpp || cmake_object_order_depends_target_adventofcode
   DEP_FILE = CMakeFiles/adventofcode.dir/days/day10/day10.cpp.o.d
@@ -144,11 +144,11 @@ build CMakeFiles/adventofcode.dir/days/day10/day10.cpp.o: CXX_COMPILER__adventof
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day10
 
-build CMakeFiles/adventofcode.dir/days/day9/day9.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day9/day9.cpp || cmake_object_order_depends_target_adventofcode
-  DEP_FILE = CMakeFiles/adventofcode.dir/days/day9/day9.cpp.o.d
+build CMakeFiles/adventofcode.dir/days/day09/day9.cpp.o: CXX_COMPILER__adventofcode_Debug /Users/ameliang/CLionProjects/adventofcode/days/day09/day9.cpp || cmake_object_order_depends_target_adventofcode
+  DEP_FILE = CMakeFiles/adventofcode.dir/days/day09/day9.cpp.o.d
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/adventofcode.dir
-  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day9
+  OBJECT_FILE_DIR = CMakeFiles/adventofcode.dir/days/day09
 
 
 # =============================================================================
@@ -158,7 +158,7 @@ build CMakeFiles/adventofcode.dir/days/day9/day9.cpp.o: CXX_COMPILER__adventofco
 #############################################
 # Link the executable adventofcode
 
-build adventofcode: CXX_EXECUTABLE_LINKER__adventofcode_Debug CMakeFiles/adventofcode.dir/main.cpp.o CMakeFiles/adventofcode.dir/days/day1/day1.cpp.o CMakeFiles/adventofcode.dir/days/day2/day2.cpp.o CMakeFiles/adventofcode.dir/days/day3/day3.cpp.o CMakeFiles/adventofcode.dir/debug.cpp.o CMakeFiles/adventofcode.dir/days/day4/day4.cpp.o CMakeFiles/adventofcode.dir/days/day5/day5.cpp.o CMakeFiles/adventofcode.dir/days/day6/day6.cpp.o CMakeFiles/adventofcode.dir/days/day7/day7.cpp.o CMakeFiles/adventofcode.dir/days/utils/string/stringutils.cpp.o CMakeFiles/adventofcode.dir/days/day8/day8.cpp.o CMakeFiles/adventofcode.dir/days/day10/day10.cpp.o CMakeFiles/adventofcode.dir/days/day9/day9.cpp.o
+build adventofcode: CXX_EXECUTABLE_LINKER__adventofcode_Debug CMakeFiles/adventofcode.dir/main.cpp.o CMakeFiles/adventofcode.dir/days/day01/day1.cpp.o CMakeFiles/adventofcode.dir/days/day02/day2.cpp.o CMakeFiles/adventofcode.dir/days/day03/day3.cpp.o CMakeFiles/adventofcode.dir/debug.cpp.o CMakeFiles/adventofcode.dir/days/day04/day4.cpp.o CMakeFiles/adventofcode.dir/days/day05/day5.cpp.o CMakeFiles/adventofcode.dir/days/day06/day6.cpp.o CMakeFiles/adventofcode.dir/days/day07/day7.cpp.o CMakeFiles/adventofcode.dir/days/utils/string/stringutils.cpp.o CMakeFiles/adventofcode.dir/days/day08/day8.cpp.o CMakeFiles/adventofcode.dir/days/day10/day10.cpp.o CMakeFiles/adventofcode.dir/days/day09/day9.cpp.o
   FLAGS = -g -D_LIBCPP_DEBUG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
   OBJECT_DIR = CMakeFiles/adventofcode.dir
   POST_BUILD = :
