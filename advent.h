@@ -48,6 +48,11 @@ namespace aoc {
         unsigned int solution2();
     }
 
+    namespace day9 {
+        unsigned int solution1();
+        unsigned int solution2();
+    }
+
     namespace day10 {
         unsigned int solution1();
         std::string solution2();
