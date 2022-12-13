@@ -23,7 +23,6 @@ namespace matrixutils {
         T &operator[](std::array<unsigned int, dimensions> indexes) {
             int index{};
             int temp_size = array.size();
-
             for (int i = indexes.size(); i > 0; --i) {
                 temp_size /= sizes[indexes.size() - i];
                 index += temp_size * indexes[indexes.size() - i];
@@ -32,7 +31,7 @@ namespace matrixutils {
             return array[index];
         }
 
-        T const &operator[](std::array<unsigned int, dimensions> indexes) const {
+        T const &operator[](std::array<unsigned int, dimensions> const indexes) const {
             return const_cast<Mdarray &>(*this)[indexes];
         }
 

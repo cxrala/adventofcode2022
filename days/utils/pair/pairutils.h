@@ -6,6 +6,8 @@
 #define ADVENTOFCODE_PAIRUTILS_H
 
 #include <utility>
+#include <utility>
+
 namespace pairutils {
     struct pairhash {
         template <typename T, typename U>
@@ -19,6 +21,7 @@ namespace pairutils {
     struct AddablePair {
         std::pair<T, T> pair;
         AddablePair(T first, T second) : pair(std::pair<T, T>{first, second}) {};
+        AddablePair(std::pair<T, T> pair) : pair(pair) {};
         AddablePair() = default;
         AddablePair &operator+=(AddablePair const &other) {
             pair.first += other.pair.first;
