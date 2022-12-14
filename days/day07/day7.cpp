@@ -107,7 +107,7 @@ namespace aoc::day7 {
                             continue;
                         }
                     } else if (stringutils::is_numeric(split_line[0])) {
-                        Node child{currDir, static_cast<unsigned int>(std::stoul(split_line[0])), split_line[1]};
+                        Node child(currDir, std::stoul(split_line[0]), split_line[1]);
                         currDir->addChild(child);
                     } else if (split_line[0] == "dir") {
                         Node child{currDir, split_line[1]};

@@ -15,8 +15,6 @@ namespace matrixutils {
         std::array<unsigned int, dimensions> sizes;
 
     public:
-        friend class Mdarray;
-
         Mdarray(std::vector<T> vec, std::array<unsigned int, dimensions> sizes) : array(std::move(vec)), sizes(sizes){}
         Mdarray() = default;
 
